@@ -173,7 +173,7 @@ export function ContactSection({ preselectedService }: ContactSectionProps) {
                 </a>
 
                 <p className="text-xs text-slate-500">
-                  Placeholder number: +{COMPANY_CONFIG.whatsappPlaceholderPhone}
+                  WhatsApp: +234 907 906 1275
                 </p>
               </div>
             </div>
@@ -305,7 +305,7 @@ export function ContactSection({ preselectedService }: ContactSectionProps) {
                         onBlur={() => handleFieldBlur('whatsappNumber')}
                         aria-invalid={Boolean(errors.whatsappNumber)}
                         aria-describedby={errors.whatsappNumber ? 'error-whatsappNumber' : undefined}
-                        placeholder="+1 555 234 5678"
+                        placeholder="+234 803 123 4567"
                         className={`w-full rounded-lg bg-[#060917] border px-3.5 py-2.5 text-sm text-white placeholder:text-slate-500 focus:outline-none focus:ring-2 transition-colors ${
                           errors.whatsappNumber
                             ? 'border-rose-500/80 focus:ring-rose-500/40'

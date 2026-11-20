@@ -6,9 +6,10 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    // Site is served from https://<user>.github.io/aivora-website/
-    // so every built asset path must start with this folder name.
-    base: '/aivora-website/',
+    // GitHub Pages serves the site from /aivora-website/, while Vercel and
+    // local dev serve it from the domain root. GITHUB_ACTIONS is set
+    // automatically inside the GitHub Pages deploy workflow.
+    base: process.env.GITHUB_ACTIONS ? '/aivora-website/' : '/',
     plugins: [
       react(),
       tailwindcss(),

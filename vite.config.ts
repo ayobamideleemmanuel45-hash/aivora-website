@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    // Site is served from https://<user>.github.io/aivora-website/
+    // so every built asset path must start with this folder name.
     base: '/aivora-website/',
     plugins: [
       react(),

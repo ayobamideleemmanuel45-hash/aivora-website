@@ -4,7 +4,7 @@ export interface NavItem {
   href: string;
 }
 
-const WHATSAPP_PLACEHOLDER_PHONE = '10000000000';
+const WHATSAPP_PLACEHOLDER_PHONE = '2349079061275';
 
 export const COMPANY_CONFIG = {
   brandName: 'AIVORA',
@@ -19,7 +19,7 @@ export const COMPANY_CONFIG = {
    */
   whatsappPlaceholderPhone: WHATSAPP_PLACEHOLDER_PHONE,
   whatsappHref: `https://wa.me/${WHATSAPP_PLACEHOLDER_PHONE}?text=Hello%20AIVORA%2C%20I%20would%20like%20to%20discuss%20a%20digital%20project.`,
-  whatsappDisplayNote: 'Placeholder WhatsApp number configured — ready for replacement',
+  whatsappDisplayNote: 'WhatsApp: +234 907 906 1275',
   navItems: [
     { id: 'home', label: 'Home', href: '#home' },
     { id: 'about', label: 'About', href: '#about' },

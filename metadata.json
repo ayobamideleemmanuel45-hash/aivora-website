@@ -1,0 +1,6 @@
+{
+  "name": "AIVORA",
+  "description": "AIVORA is a digital technology company specializing in website development, mobile app development, AI solutions, and business automation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
